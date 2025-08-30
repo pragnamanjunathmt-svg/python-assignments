@@ -4,7 +4,7 @@
   ls -s numbers.text
 
 # 2. Print the IP address of the machine
-  ipconfig
+  hostname -I
 
 # 3. Show the contents of a file named "readme.txt" in the current directory
   ls
