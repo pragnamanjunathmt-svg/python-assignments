@@ -1,39 +1,39 @@
 #!/bin/bash
 
 # 1. Sort the contents of "numbers.txt" in ascending order
-# ls -s numbers.text
+  ls -s numbers.text
 
 # 2. Print the IP address of the machine
-# ipconfig
+  ipconfig
 
 # 3. Show the contents of a file named "readme.txt" in the current directory
-# ls
+  ls
 
 # 4. Count the number of lines in "data.csv"
-# wc -1 data.cvs
+  wc -1 data.cvs
 
 # 5. Find all files containing the word "error" in the "logs" folder
-# grep -r "error" logs/
+  grep -r "error" logs/
 
 # 6. Display the last 10 lines of "app.log"
-# history | tail -n 10 > app.log
+  history | tail -n 10 > app.log
 
 # 7. Change permissions of "script.sh" to make it executable for everyone
-# chmod a+x script.sh
+  chmod a+x script.sh
 
 # 8. Use a command to search for the word "TODO" in every ".py" file in the current directory
-# grep "TODO"*.py
+  grep "TODO"*.py
 
 # 9. Show the last 20 commands entered in the terminal
-# history | tail -20 
+  history | tail -20 
 
 # 10. Show processes sorted by memory usage
-# ps aux --sort -%mem
+  ps aux --sort -%mem
 
 # 11. Find all directories named "backup" anywhere on the system
-# sudo find / -type d -name "backup"
+   find . -type d -name "backup"
 
 # 12. Replace every occurrence of "foo" with "bar" in "example.txt" and save to "new_example.txt"
-# sed 's/foo/bar/g' example.txt > new_example.txt
+  sed 's/foo/bar/g' example.txt > new_example.txt
 
 
